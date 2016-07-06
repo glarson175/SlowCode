@@ -37,7 +37,7 @@ public class SlowCode {
 	try {
 	    // Modify this value to increase loading time
 	    // (in ms)
-	    Thread.sleep(10000);
+	    Thread.sleep(8000);
 	} catch (Exception lolex) {
 	    // We're living on the edge
 	}
@@ -53,7 +53,7 @@ public class SlowCode {
 
 	Other o = new Other(val);
 
-	Prefacer.preface(3000);
+	Prefacer.preface(1000);
 	
 	System.out.println(Prefacer.nirp.substring(0,1000));
 	

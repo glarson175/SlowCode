@@ -8,7 +8,7 @@ public class Other {
 
     public String levelifier(int val, String toReturn) {
 	Other o = new Other(val % 13);
-	if (val < 1500) {
+	if (val < 13) {
 	    return toReturn + o.levelifier(++val, toReturn + "2");
 	} else {
 	    return "3";
